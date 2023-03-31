@@ -1,0 +1,15 @@
+C:\Dev\ProtocoloAVC\bin\Debug\net7.0\ProtocoloAVC.exe
+C:\Dev\ProtocoloAVC\bin\Debug\net7.0\ProtocoloAVC.deps.json
+C:\Dev\ProtocoloAVC\bin\Debug\net7.0\ProtocoloAVC.runtimeconfig.json
+C:\Dev\ProtocoloAVC\bin\Debug\net7.0\ProtocoloAVC.dll
+C:\Dev\ProtocoloAVC\bin\Debug\net7.0\ProtocoloAVC.pdb
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.csproj.AssemblyReference.cache
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.AssemblyInfoInputs.cache
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.AssemblyInfo.cs
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.csproj.CoreCompileInputs.cache
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.dll
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\refint\ProtocoloAVC.dll
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.pdb
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ProtocoloAVC.genruntimeconfig.cache
+C:\Dev\ProtocoloAVC\obj\Debug\net7.0\ref\ProtocoloAVC.dll
