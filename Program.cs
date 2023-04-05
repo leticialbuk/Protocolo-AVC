@@ -161,7 +161,6 @@ namespace ProtocoloAvc
                 if (acessoVenoso.ToLower() == "sim")
                 {
                     Console.WriteLine("O paciente será submetido a trombólise, após o procedimento ficará em observação");
-                    // ContinuidadeAtendimentoEtapa4();
                 }
                 else if (acessoVenoso.ToLower() == "nao")
                 {
