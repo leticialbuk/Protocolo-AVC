@@ -26,10 +26,16 @@ namespace ProtocoloAvc
             Console.WriteLine("AVISO: Este protocolo deverá ser feito em 1 hora, risco iminente de morte!");
             Console.WriteLine("--------------------------------------------------------------------------");
 
+            Emergencia();
+        }
+
+        public static void Emergencia()
+        {
             string entradaEmergencia;
             do
             {
-                Console.WriteLine("O paciente deu entrada na emergência? sim ou nao");
+                Console.Write("\n");
+                Console.WriteLine(" 1 - O paciente deu entrada na emergência? sim ou nao");
                 entradaEmergencia = Console.ReadLine();
 
                 if (entradaEmergencia.ToLower() == "sim")
@@ -40,13 +46,13 @@ namespace ProtocoloAvc
                 else if (entradaEmergencia.ToLower() == "nao")
                 {
                     Console.WriteLine("O paciente deve ser encaminhado a emergência!");
+                    Emergencia();
                 }
                 else
                 {
                     Console.WriteLine("Resposta inválida");
                 }
             } while (entradaEmergencia.ToLower() != "sim" && entradaEmergencia.ToLower() != "nao");
-
         }
 
         public static void ContinuidadeAtendimentoEtapa1()
@@ -54,8 +60,9 @@ namespace ProtocoloAvc
             string acessoVenoso;
             do
             {
+                Console.Write("\n");
                 Console.WriteLine("----------------------------------------------------");
-                Console.WriteLine("Foi pulsionado acesso venoso no paciente? sim ou nao");
+                Console.WriteLine("2 - Foi pulsionado acesso venoso no paciente? sim ou nao");
                 acessoVenoso = Console.ReadLine();
 
                 if (acessoVenoso.ToLower() == "sim")
@@ -66,6 +73,7 @@ namespace ProtocoloAvc
                 else if (acessoVenoso.ToLower() == "nao")
                 {
                     Console.WriteLine("Deve ser feito acesso venoso no paciente para darmos continuidade ao atendimento!");
+                    ContinuidadeAtendimentoEtapa1();
                 }
                 else
                 {
@@ -79,8 +87,9 @@ namespace ProtocoloAvc
             string acessoVenoso;
             do
             {
+                Console.Write("\n");
                 Console.WriteLine("--------------------------------------------------------");
-                Console.WriteLine("Foi realizada a coleta de sangue do paciente? sim ou nao");
+                Console.WriteLine("3 - Foi realizada a coleta de sangue do paciente? sim ou nao");
                 acessoVenoso = Console.ReadLine();
 
                 if (acessoVenoso.ToLower() == "sim")
@@ -91,6 +100,7 @@ namespace ProtocoloAvc
                 else if (acessoVenoso.ToLower() == "nao")
                 {
                     Console.WriteLine("É necessário ter a coleta de sangue para darmos continuidade ao atendimento");
+                    ContinuidadeAtendimentoEtapa2();
                 }
                 else
                 {
@@ -104,8 +114,9 @@ namespace ProtocoloAvc
             string acessoVenoso;
             do
             {
+                Console.Write("\n");
                 Console.WriteLine("---------------------------------------------------");
-                Console.WriteLine("O paciente realizou o eletrocardiograma? sim ou nao");
+                Console.WriteLine("4 - O paciente realizou o eletrocardiograma? sim ou nao");
                 acessoVenoso = Console.ReadLine();
 
                 if (acessoVenoso.ToLower() == "sim")
@@ -116,6 +127,7 @@ namespace ProtocoloAvc
                 else if (acessoVenoso.ToLower() == "nao")
                 {
                     Console.WriteLine("É necessário o ECG para darmos continuidade ao atendimento!");
+                    ContinuidadeAtendimentoEtapa3();
                 }
                 else
                 {
@@ -129,8 +141,9 @@ namespace ProtocoloAvc
             string acessoVenoso;
             do
             {
+                Console.Write("\n");
                 Console.WriteLine("--------------------------------------------");
-                Console.WriteLine("O paciente realizou a tomografia? sim ou nao");
+                Console.WriteLine("5 - O paciente realizou a tomografia? sim ou nao");
                 acessoVenoso = Console.ReadLine();
 
                 if (acessoVenoso.ToLower() == "sim")
@@ -141,6 +154,7 @@ namespace ProtocoloAvc
                 else if (acessoVenoso.ToLower() == "nao")
                 {
                     Console.WriteLine("É necessário a tomografia para darmos continuidade ao atendimento!");
+                    ContinuidadeAtendimentoEtapa4();
                 }
                 else
                 {
@@ -154,8 +168,9 @@ namespace ProtocoloAvc
             string acessoVenoso;
             do
             {
+                Console.Write("\n");
                 Console.WriteLine("--------------------------------------------------------------------------------------------");
-                Console.WriteLine("Com base no laudo da tomografia, é necessário ser feito a trombólise no paciente? sim ou nao");
+                Console.WriteLine("6 - Com base no laudo da tomografia, é necessário ser feito a trombólise no paciente? sim ou nao");
                 acessoVenoso = Console.ReadLine();
 
                 if (acessoVenoso.ToLower() == "sim")
